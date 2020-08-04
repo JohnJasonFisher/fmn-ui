@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Friday Night Magic!
+        Welcome to Friday Night Magic!
       </header>
       <body>
         <UsersList></UsersList>
