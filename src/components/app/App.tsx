@@ -1,5 +1,5 @@
 import React from 'react'
-import UsersList from '../users-list/UsersList';
+import UsersList from '../users-list/UsersList'
 
 export default function App() {
   return (
@@ -7,9 +7,7 @@ export default function App() {
       <header className="App-header">
         Welcome to Friday Night Magic!
       </header>
-      <body>
-        <UsersList></UsersList>
-      </body>
+      <UsersList></UsersList>
     </div>
-  );
+  )
 }
