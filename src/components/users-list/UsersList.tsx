@@ -8,7 +8,7 @@ export default function UsersList() {
 	useEffect(() => {
 		const fetchUsers = async () => {
 			const result = await axios(
-				{ baseURL: `http://localhost:8000/` }
+				{ baseURL: 'http://localhost:8000/users' }
 			)
 			setUsers(result.data)
 		}
